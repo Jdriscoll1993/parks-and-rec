@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(170, 255, 146);
+}
+h3,
+p {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  color: rgb(182, 80, 255);
+}
+.greenSolid {
+  border: 3px solid green;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  color: darkgreen;
+  background: #c0ffee;
+  text-shadow: 1px 1px wheat;
+}
+
+.redDash {
+  border: 3px dashed red;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 179, 171);
+  color: firebrick;
+  text-shadow: 1px 1px wheat;
+}
+
+.unvisited {
+  border: 10px solid green;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.visited {
+  border: 10px dashed red;
+  max-width: 400px;
+  margin: 10px auto;
+}
